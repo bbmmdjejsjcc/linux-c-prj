@@ -1,0 +1,1 @@
+#ifndef _LOCAL_CLIENT_H#define _LOCAL_CLIENT_H#define LOCAL_SOCK_PATH "/local_sock"#define BUF_SIZE 100#define BACKLOG 5extern struct sockaddr_un socketAddr;extern int sfd;//该socket当服务器extern int cfd;extern ssize_t sNumRead;extern ssize_t sNumWrite;extern char buf[BUF_SIZE];#endif

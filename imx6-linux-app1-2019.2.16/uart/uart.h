@@ -1,0 +1,1 @@
+#ifndef _UART_H#define _UART_H#define TRUE 1#define FALSE -1void set_speed(int fd, int speed);int set_Parity(int fd,int databits,int stopbits,int parity);int OpenDev(char *Dev);#endif
